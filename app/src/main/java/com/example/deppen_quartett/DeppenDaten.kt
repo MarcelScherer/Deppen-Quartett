@@ -286,7 +286,7 @@ object LehrerDaten {
     )
 
     val lili = Depp(
-        funktion = "Grosse Liege",
+        funktion = "Grosse Liebe",
         chilligkeit = 4u,
         aussehen = 7u,
         beliebtheit = 7u,
@@ -324,7 +324,7 @@ object LehrerDaten {
         bayern_gen = 5u,
         deppenfaktor = 2u,
         heldnestatus = 3u,
-        imageResourceId = R.drawable.mama
+        imageResourceId = R.drawable.papa
     )
 
     val johnny = Depp(
@@ -495,8 +495,121 @@ object LehrerDaten {
         imageResourceId = R.drawable.yannik
     )
 
-    // Optional: Eine Liste aller Lehrer für einfacheren Zugriff
+    val sherlock = Depp(
+        funktion = "Meisterdetektiv",
+        chilligkeit = 4u,
+        aussehen = 7U,
+        beliebtheit = 3u,
+        peinlichkeit = 1u,
+        gefaerlichkeit = 7u,
+        nerfigkeit = 3u,
+        bayern_gen = 7u,
+        deppenfaktor = 1u,
+        heldnestatus = 7u,
+        imageResourceId = R.drawable.sherlock_seppi_holmes
+    )
+
+    val dr_brain = Depp(
+        funktion = "Meisterdetektivin",
+        chilligkeit = 3u,
+        aussehen = 5U,
+        beliebtheit = 5u,
+        peinlichkeit = 2u,
+        gefaerlichkeit = 6u,
+        nerfigkeit = 4u,
+        bayern_gen = 1u,
+        deppenfaktor = 1u,
+        heldnestatus = 6u,
+        imageResourceId = R.drawable.dr_brain
+    )
+
+    val ramboma = Depp(
+        funktion = "Geheimwaffe 1",
+        chilligkeit = 1u,
+        aussehen = 7U,
+        beliebtheit = 1u,
+        peinlichkeit = 2u,
+        gefaerlichkeit = 7u,
+        nerfigkeit = 2u,
+        bayern_gen = 7u,
+        deppenfaktor = 1u,
+        heldnestatus = 7U,
+        imageResourceId = R.drawable.ramboma
+    )
+
+    val terminatopa = Depp(
+        funktion = "Geheimwaffe 2",
+        chilligkeit = 3u,
+        aussehen = 7U,
+        beliebtheit = 3u,
+        peinlichkeit = 1u,
+        gefaerlichkeit = 6u,
+        nerfigkeit = 1u,
+        bayern_gen = 7u,
+        deppenfaktor = 1u,
+        heldnestatus = 7U,
+        imageResourceId = R.drawable.terminatopa
+    )
+
+    val schierling = Depp(
+        funktion = "Kunstlehrer",
+        chilligkeit = 6u,
+        aussehen = 4U,
+        beliebtheit = 5u,
+        peinlichkeit = 4u,
+        gefaerlichkeit = 3u,
+        nerfigkeit = 3u,
+        bayern_gen = 6u,
+        deppenfaktor = 3u,
+        heldnestatus = 5U,
+        imageResourceId = R.drawable.schierling
+    )
+
+    val lena = Depp(
+        funktion = "Rutschpartnerin",
+        chilligkeit = 4u,
+        aussehen = 7U,
+        beliebtheit = 6u,
+        peinlichkeit = 2u,
+        gefaerlichkeit = 1u,
+        nerfigkeit = 2u,
+        bayern_gen = 4u,
+        deppenfaktor = 1u,
+        heldnestatus = 4U,
+        imageResourceId = R.drawable.lena
+    )
+
+    val lina = Depp(
+        funktion = "Lilis Mädel 1",
+        chilligkeit = 4u,
+        aussehen = 6U,
+        beliebtheit = 4U,
+        peinlichkeit = 3u,
+        gefaerlichkeit = 1u,
+        nerfigkeit = 3u,
+        bayern_gen = 3u,
+        deppenfaktor = 1u,
+        heldnestatus = 3U,
+        imageResourceId = R.drawable.lina
+    )
+
+    val lara = Depp(
+        funktion = "Lilis Mädel 2",
+        chilligkeit = 4u,
+        aussehen = 6U,
+        beliebtheit = 4U,
+        peinlichkeit = 3u,
+        gefaerlichkeit = 1u,
+        nerfigkeit = 3u,
+        bayern_gen = 3u,
+        deppenfaktor = 1u,
+        heldnestatus = 3U,
+        imageResourceId = R.drawable.lara
+    )
+    
+        // Optional: Eine Liste aller Lehrer für einfacheren Zugriff
     val alleDeppen: List<Depp> = listOf(frauWeider, frauLiebig, misRunzheimer, herrWitzl, seppiHinterholzer, schakeline, herKillerMiller, herrRammelmeyer,
         hansi, luis_und_leon, kevin, herr_fritte, merlin, herr_glas, herr_bleibimhaus, luigi, vroni, hausneerbauernlenz, pfarrer, lili, mama, papa,
-        johnny, opa, oma, kevinsMum, jaqueline, neuer_kevin, pater, tante, jessy, wellenschleager, linus, yannik)
+        johnny, opa, oma, kevinsMum, jaqueline, neuer_kevin, pater, tante, jessy, wellenschleager, linus, yannik, sherlock, dr_brain, ramboma,
+        terminatopa, schierling, lena, lina, lara)
 }
